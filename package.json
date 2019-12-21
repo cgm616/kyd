@@ -1,0 +1,11 @@
+{
+  "name": "kyd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cgm616 <cgm616@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "mathjax": "^2.7.7"
+  }
+}
