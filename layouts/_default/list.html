@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="is-1 title">{{ .Title }}</h1>
+            <div class="content">
+                        {{ .Content }}
+                    </div>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+    <div class="container">
+{{ range .Paginator.Pages }}
+<article class="box">
+    <a href="{{ .Permalink }}" class="title">{{ .Title }}</a>
+</article>
+{{ end }}
+</div>
+</div>
+</div>
+
+{{ end }}

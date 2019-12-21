@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KYD</title>
+    <link>http://example.org/</link>
+    <description>Recent content on KYD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2019 00:07:51 -0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Sat, 21 Dec 2019 00:07:51 -0600</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>I am a person And I like to do things!</description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>http://example.org/posts/example/</link>
+      <pubDate>Fri, 20 Dec 2019 22:10:57 -0600</pubDate>
+      
+      <guid>http://example.org/posts/example/</guid>
+      <description>Markdown is fully supported So are a variety of other flavors If you prefer certain flavors, you should check it out on the official documentation.</description>
+    </item>
+    
+  </channel>
+</rss>

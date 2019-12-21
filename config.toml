@@ -1,0 +1,46 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "KYD"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Research"
+    url = "/research"
+    weight = 3
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts"
+    weight = 4
+
+[[menu.main]]
+    identifier = "more"
+    name = "More"
+    weight = 5
+
+[[menu.main]]
+    parent = "more"
+    name = "Other"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    parent = "more"
+    name = "Things"
+    url = "/"
+    weight = 2
+
+[[menu.main]]
+    parent = "more"
+    name = "You want"
+    url = "/"
+    weight = 3
