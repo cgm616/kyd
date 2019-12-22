@@ -25,10 +25,24 @@
 <section class="section">
     <div class="container">
         <h1 class="title is-1">{{ .Title }}</h1>
+        {{ if .Params.subtitle }}
+        <h3 class="subtitle is-3">{{ .Params.subtitle }}</h3>
+        {{ end }}
         <div class="content">
             {{ .Content }}
         </div>
     </div>
 </section>
+
+<section class="hero is-info">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-1">Recent blog posts</h1>
+            <h3 class="subtitle is-3"><a href="posts/">Find more here \(\to\)</a></h3>
+        </div>
+    </div>
+</section>
+
+{{ partial "posts.html" (first 3 (where site.RegularPages "Type" "in" site.Params.mainSections)) }}
 
 {{- end -}}

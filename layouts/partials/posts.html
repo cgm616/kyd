@@ -1,0 +1,16 @@
+<div class="section">
+    <div class="container">
+        {{ range . }}
+        <a class="box" href="{{ .Permalink }}">
+                <h3 class="post-name is-3 title" href="{{ .Permalink }}">{{ .Title }}</h3>
+                <h5 class="is-5 subtitle">Posted on {{ .Date.Format "January 02, 2006" }}</h5>
+                {{ if .Params.image }}
+                    <img class="post-image" src="{{ .Params.image }}">
+                {{ end }}
+                <div class="content">
+{{ .Summary }}
+</div>
+</a>
+{{ end }}
+</div>
+</div>
