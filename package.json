@@ -5,7 +5,6 @@
   "author": "cgm616 <cgm616@me.com>",
   "license": "MIT",
   "dependencies": {
-    "bulma": "^0.8.0",
-    "mathjax": "^2.7.7"
+    "bulma": "^0.8.0"
   }
 }
