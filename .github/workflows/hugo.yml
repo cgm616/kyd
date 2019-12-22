@@ -1,16 +1,26 @@
-name: Hugo
+name: build and deploy
 
-on: [push]
+on: 
+  push:
+    branches:
+      master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout
+      uses: actions/checkout@v1
 
-    - name: hugo
-      uses: klakegg/actions-hugo@1.0.0
+    - name: Hugo build
+      uses: jakejarvis/hugo-build-action@master
       with:
-        pandoc-command: pandoc-default --strip-empty-paragraphs --mathjax
-        env: production
+        args: --minify
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: public # The folder the action should deploy.
