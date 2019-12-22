@@ -1,8 +1,9 @@
----
-title: "Fourier"
-date: 2019-12-21T10:51:31-06:00
-draft: true
----
++++
+date = "2019-12-21T10:51:31-06:00"
+draft = true
+title = "Fourier"
+
++++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat metus a fermentum semper. Vivamus in ullamcorper libero. Donec consectetur, sapien eget porttitor ullamcorper, dolor arcu pellentesque dolor, in lacinia odio lacus vitae diam. Aliquam lobortis rutrum nunc, eget interdum est sodales ac. Morbi venenatis velit nec mauris egestas hendrerit. Donec feugiat interdum odio quis ultrices. Aliquam non nibh sit amet tortor suscipit venenatis. Vestibulum gravida tortor lacus, non scelerisque erat pellentesque eu. Donec maximus venenatis mi, eu vestibulum ante. Morbi rhoncus ante eu nulla porttitor euismod. Vestibulum malesuada non nunc quis lacinia. Vivamus quis pretium metus, id gravida orci.
 

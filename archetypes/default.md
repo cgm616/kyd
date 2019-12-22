@@ -1,8 +1,8 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-subtitle: ""
-date: {{ .Date }}
-markup: pandoc
-draft: true
----
++++
+date = "{{ .Date }}"
+draft = "true"
+title = "{{ replace .Name "-" " " | title }}"
+subtitle = ""
+markup = "pandoc"
++++
 

@@ -1,8 +1,9 @@
----
-title: "Example"
-date: 2019-12-20T22:10:57-06:00
-draft: false
----
++++
+date = "2019-12-20T22:10:57-06:00"
+draft = false
+title = "Example"
+
++++
 
 If you prefer certain flavors, you should check it
 out on the official documentation.
