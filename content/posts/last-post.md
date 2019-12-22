@@ -2,9 +2,17 @@
 date = "2019-12-21T14:55:35-06:00"
 draft = false
 image = "images/image.jpg"
-title = "Last"
-
+title = "Last post of 2019"
+subtitle = "A year in review"
+herocolor = "is-warning"
 +++
+
+This part will be in the **preview** and should have _all_ formatting included.
+Even `code`!
+
+<!--more-->
+
+This part will not be included in the preview.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat metus a fermentum semper. Vivamus in ullamcorper libero. Donec consectetur, sapien eget porttitor ullamcorper, dolor arcu pellentesque dolor, in lacinia odio lacus vitae diam. Aliquam lobortis rutrum nunc, eget interdum est sodales ac. Morbi venenatis velit nec mauris egestas hendrerit. Donec feugiat interdum odio quis ultrices. Aliquam non nibh sit amet tortor suscipit venenatis. Vestibulum gravida tortor lacus, non scelerisque erat pellentesque eu. Donec maximus venenatis mi, eu vestibulum ante. Morbi rhoncus ante eu nulla porttitor euismod. Vestibulum malesuada non nunc quis lacinia. Vivamus quis pretium metus, id gravida orci.
 

@@ -4,7 +4,6 @@ draft = false
 markup = "pandoc"
 subtitle = "I hope you like your stay."
 title = "Welcome to my website"
-
 +++
 
 You can use any markdown here that you want!

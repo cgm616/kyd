@@ -10,21 +10,25 @@ canonifyURLs = "true"
     name = "Home"
     url = "/"
     weight = 1
+    pre = "<span class='icon'><i class='fas fa-home'></i></span>"
 
 [[menu.main]]
     name = "About"
     url = "/about"
     weight = 2
+    pre = "<span class='icon'><i class='fas fa-address-card'></i></span>"
 
 [[menu.main]]
     name = "Research"
     url = "/research"
     weight = 3
+    pre = "<span class='icon'><i class='fas fa-wave-square'></i></span>"
 
 [[menu.main]]
     name = "Blog"
     url = "/posts"
     weight = 4
+    pre = "<span class='icon'><i class='fas fa-paragraph'></i></span>"
 
 [[menu.main]]
     identifier = "more"

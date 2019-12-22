@@ -1,5 +1,18 @@
 {{ define "main" }}
 
+<div class="hero {{ if .Params.heroColor }}{{ .Params.heroColor }}{{ else }}is-dark{{ end}}">
+    <div class="hero-body">
+        <div class="container">
+            <h3 class="title is-3">{{ .Title }}</h3>
+            {{ if .Params.subtitle }}
+            <h5 class="subtitle is-5">{{ .Params.subtitle }}</h5>
+            {{ end }}
+            <h6 class="is-6">{{ .Date.Format "January 02, 2006" }}</h6>
+            <h6 class="is-6"> {{ .WordCount }} words</h6>
+        </div>
+</div>
+</div>
+
 <div class="section">
     <div class="container">
         <div class="content">

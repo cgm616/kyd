@@ -18,6 +18,9 @@
 </section>
 {{ end }}
 
-{{ partial "posts.html" .Paginator.Pages }}
+<div class="section">
+    <div class="container">{{ partial "posts.html" .Paginator.Pages }}
+    </div>
+</div>
 
 {{ end }}
