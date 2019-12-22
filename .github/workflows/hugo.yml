@@ -17,5 +17,5 @@ jobs:
       uses: chabad360/hugo-gh-pages@master
       with:
         githubToken: ${{ secrets.PERSONAL_TOKEN }}
-        args: --minify
+        args: --minify -b kyd.cgm616.me
         cname: kyd.cgm616.me
