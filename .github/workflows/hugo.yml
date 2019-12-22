@@ -13,14 +13,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Hugo build
-      uses: jakejarvis/hugo-build-action@master
-      with:
-        args: --minify
-
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: public # The folder the action should deploy.
+    - name: Build and deploy
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.PERSONAL_TOKEN }}
+          args: --minify
+          cname: kyd.cgm616.me
