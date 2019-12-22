@@ -14,8 +14,8 @@ jobs:
       uses: actions/checkout@v1
 
     - name: Build and deploy
-        uses: chabad360/hugo-gh-pages@master
-        with:
-          githubToken: ${{ secrets.PERSONAL_TOKEN }}
-          args: --minify
-          cname: kyd.cgm616.me
+      uses: chabad360/hugo-gh-pages@master
+      with:
+        githubToken: ${{ secrets.PERSONAL_TOKEN }}
+        args: --minify
+        cname: kyd.cgm616.me
