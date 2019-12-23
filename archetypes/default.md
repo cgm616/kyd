@@ -1,6 +1,6 @@
 +++
 date = "{{ .Date }}"
-draft = "true"
+draft = true
 title = "{{ replace .Name "-" " " | title }}"
 subtitle = ""
 markup = "pandoc"

@@ -1,6 +1,6 @@
 +++
 date = "2019-12-22T10:41:27-06:00"
-draft = "true"
+draft = false
 title = "MATH 260"
 subtitle = "Differential Equations"
 markup = "pandoc"

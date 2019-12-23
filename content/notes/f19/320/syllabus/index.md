@@ -1,6 +1,6 @@
 +++
 date = "2019-12-22T10:54:37-06:00"
-draft = "true"
+draft = false
 title = "Syllabus"
 subtitle = "Wavelets and Fourier Analysis"
 markup = "pandoc"

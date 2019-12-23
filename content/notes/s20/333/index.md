@@ -1,6 +1,6 @@
 +++
 date = "2019-12-22T10:39:46-06:00"
-draft = "true"
+draft = false
 title = "MATH 333"
 subtitle = "The Structure of Networks"
 markup = "pandoc"
