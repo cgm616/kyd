@@ -4,5 +4,5 @@ draft = false
 markup = "pandoc"
 subtitle = "Assistant Professor of Mathematics, Amherst College, Amherst MA"
 title = "Karamatou Yacoubou Djima"
-image = "great_wave.jpg"
+image = "images/great_wave.jpg"
 +++
