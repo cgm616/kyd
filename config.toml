@@ -10,40 +10,41 @@ canonifyURLs = "true"
     name = "Home"
     url = "/"
     weight = 1
-    pre = "<span class='icon'><i class='fas fa-home'></i></span>"
+    pre = "<span class='icon'><svg id='i-home' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='currentcolor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path d='M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z' /></svg></span>"
 
 [[menu.main]]
     name = "About"
-    url = "/about"
+    url = "/about/"
     weight = 2
-    pre = "<span class='icon'><i class='fas fa-address-card'></i></span>"
+    pre = "<span class='icon'><svg id='i-user' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='currentcolor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path d='M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z' /></svg></span>"
 
 [[menu.main]]
     name = "Research"
-    url = "/research"
+    url = "/research/"
     weight = 3
-    pre = "<span class='icon'><i class='fas fa-wave-square'></i></span>"
+    pre = "<span class='icon'><svg id='i-activity' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='currentcolor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path d='M4 16 L11 16 14 29 18 3 21 16 28 16' /></svg></span>"
 
 [[menu.main]]
     name = "Blog"
-    url = "/posts"
+    url = "/posts/"
     weight = 4
-    pre = "<span class='icon'><i class='fas fa-paragraph'></i></span>"
+    pre = "<span class='icon'><svg id='i-edit' viewBox='0 0 32 32' fill='none' stroke='currentcolor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path d='M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z' /></svg></span>"
 
 [[menu.main]]
     identifier = "more"
     name = "Class notes"
     weight = 5
     url = "/notes/"
+    pre = "<span class='icon'><svg id='i-book' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='currentcolor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'><path d='M16 7 C16 7 9 1 2 6 L2 28 C9 23 16 28 16 28 16 28 23 23 30 28 L30 6 C23 1 16 7 16 7 Z M16 7 L16 28' /></svg></span>"
 
 [[menu.main]]
     parent = "more"
     name = "The Structure of Networks"
-    url = "/notes/s20/333"
+    url = "/notes/s20/333/"
     weight = 1
 
 [[menu.main]]
     parent = "more"
     name = "Differential Equations"
-    url = "/notes/s20/260"
+    url = "/notes/s20/260/"
     weight = 2
