@@ -1,12 +1,10 @@
 +++
 date = "2019-12-21T14:53:38-06:00"
 draft = false
-image = "images/great_wave.jpg"
+image = "images/great_wave2.jpg"
 title = "Wavelets"
 
-+++
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat metus a fermentum semper. Vivamus in ullamcorper libero. Donec consectetur, sapien eget porttitor ullamcorper, dolor arcu pellentesque dolor, in lacinia odio lacus vitae diam. Aliquam lobortis rutrum nunc, eget interdum est sodales ac. Morbi venenatis velit nec mauris egestas hendrerit. Donec feugiat interdum odio quis ultrices. Aliquam non nibh sit amet tortor suscipit venenatis. Vestibulum gravida tortor lacus, non scelerisque erat pellentesque eu. Donec maximus venenatis mi, eu vestibulum ante. Morbi rhoncus ante eu nulla porttitor euismod. Vestibulum malesuada non nunc quis lacinia. Vivamus quis pretium metus, id gravida orci.
++++Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat metus a fermentum semper. Vivamus in ullamcorper libero. Donec consectetur, sapien eget porttitor ullamcorper, dolor arcu pellentesque dolor, in lacinia odio lacus vitae diam. Aliquam lobortis rutrum nunc, eget interdum est sodales ac. Morbi venenatis velit nec mauris egestas hendrerit. Donec feugiat interdum odio quis ultrices. Aliquam non nibh sit amet tortor suscipit venenatis. Vestibulum gravida tortor lacus, non scelerisque erat pellentesque eu. Donec maximus venenatis mi, eu vestibulum ante. Morbi rhoncus ante eu nulla porttitor euismod. Vestibulum malesuada non nunc quis lacinia. Vivamus quis pretium metus, id gravida orci.
 
 Phasellus dolor mi, convallis in feugiat ac, finibus sit amet odio. Maecenas eget dictum libero. Donec et scelerisque velit, ac dignissim lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec suscipit lacinia nunc fringilla ultricies. Cras lacinia mattis diam vel imperdiet. Morbi leo magna, mollis fermentum dignissim ut, euismod vitae odio. Quisque gravida ipsum eu ligula vulputate, vitae lobortis quam rutrum. Morbi ultricies felis ac urna efficitur accumsan. In sed erat id magna vehicula lobortis. Vivamus vel diam vel nunc ultrices ornare quis in metus. Nunc facilisis velit vitae diam ornare rutrum.
 

@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<div class="hero {{ if .Params.herocolor }}{{ .Params.herocolor }}{{ end }} is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="is-1 title">{{ .Title }}</h1>
+</div>
+</div>
+</div>
+
+{{ if .Content }}
+<section class="section">
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<div class="section">
+    <div class="container">
+        {{ range .Paginator.Pages }}
+        <a class="box" href="{{ .Permalink }}">
+            <h4 class="post-name is-4 title" href="{{ .Permalink }}">{{ .Title }}{{ if .Params.subtitle }}:
+                {{ .Params.subtitle }}{{ end }}</h4>
+            <h6 class="is-6 subtitle">Last updated on {{ .Lastmod.Format "January 02, 2006" }}</h6>
+            {{ if .Params.image }}
+            <img class="post-image" src="{{ .Params.image }}">
+            {{ end }}
+            <div class="content">
+            {{ .Summary }}
+            </div>
+</a>
+{{ end }}
+</div>
+</div>
+
+{{ end }}

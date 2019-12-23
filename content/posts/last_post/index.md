@@ -1,10 +1,10 @@
 +++
 date = "2019-12-21T14:55:35-06:00"
 draft = false
-image = "images/image.jpg"
+image = "images/fireworks.jpg"
 title = "Last post of 2019"
 subtitle = "A year in review"
-herocolor = "is-warning"
+herocolor = "is-dark"
 +++
 
 This part will be in the **preview** and should have _all_ formatting included.

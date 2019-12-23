@@ -32,23 +32,18 @@ canonifyURLs = "true"
 
 [[menu.main]]
     identifier = "more"
-    name = "More"
+    name = "Class notes"
     weight = 5
+    url = "/notes/"
 
 [[menu.main]]
     parent = "more"
-    name = "Other"
-    url = "/"
+    name = "The Structure of Networks"
+    url = "/notes/s20/333"
     weight = 1
 
 [[menu.main]]
     parent = "more"
-    name = "Things"
-    url = "/"
+    name = "Differential Equations"
+    url = "/notes/s20/260"
     weight = 2
-
-[[menu.main]]
-    parent = "more"
-    name = "You want"
-    url = "/"
-    weight = 3

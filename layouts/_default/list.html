@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="hero is-info">
+<div class="hero {{ if .Params.herocolor }}{{ .Params.herocolor }}{{ end }} is-medium">
     <div class="hero-body">
         <div class="container">
             <h1 class="is-1 title">{{ .Title }}</h1>

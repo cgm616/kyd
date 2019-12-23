@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="hero {{ if .Params.heroColor }}{{ .Params.heroColor }}{{ else }}is-dark{{ end}} is-medium">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title is-1">{{ .Title }}</h1>
+            {{ if .Params.subtitle }}
+            <h3 class="subtitle is-3">{{ .Params.subtitle }}</h3>
+            {{ end }}
+            <h6 class="is-6">Last updated on {{ .Lastmod.Format "January 02, 2006" }}</h6>
+        </div>
+</div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+</div>
+</div>
+
+
+
+{{ end }}

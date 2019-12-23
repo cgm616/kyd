@@ -1,12 +1,13 @@
 {{ range . }}
 <a class="box" href="{{ .Permalink }}">
-    <h4 class="post-name is-4 title" href="{{ .Permalink }}">{{ .Title }}</h4>
+    <h4 class="post-name is-4 title" href="{{ .Permalink }}">{{ .Title }}{{ if .Params.subtitle }}:
+        {{ .Params.subtitle }}{{ end }}</h4>
     <h6 class="is-6 subtitle">Posted on {{ .Date.Format "January 02, 2006" }}</h6>
     {{ if .Params.image }}
     <img class="post-image" src="{{ .Params.image }}">
     {{ end }}
     <div class="content">
-{{ .Summary }}
-</div>
+    {{ .Summary }}
+    </div>
 </a>
 {{ end }}
