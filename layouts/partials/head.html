@@ -11,11 +11,13 @@
       }
     };
   </script>
-  <link rel="stylesheet"
-    href='{{ (resources.Get "sass/main.css" | resources.Minify | resources.Fingerprint).Permalink }}' />
-  <link rel="stylesheet"
-    href='{{ (resources.Get "sass/bulma/bulma.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint).Permalink }}' />
-  <script type="text/javascript" id="MathJax-script" async
-    src='{{ (resources.Get "js/mathjax.js" | resources.Minify | resources.Fingerprint).Permalink }}'></script>
+  {{ $bulma := resources.Get "sass/bulma.sass" | resources.ToCSS (dict "targetPath" "css/style.css" "outputStyle" "compressed") | minify | fingerprint }}
+  {{ $mathjax := resources.Get "js/mathjax.js" | minify | fingerprint }}
+  <link rel="stylesheet" href='{{ $bulma.Permalink }}' integrity="{{ $bulma.Data.Integrity }}" />
+  <script type="text/javascript" id="MathJax-script" async src='{{ $mathjax.Permalink }}'
+    integrity="{{ $mathjax.Data.Integrity }}"></script>
   <link rel="canonical" href="{{ .Permalink }}" />
+  {{ with resources.Get "sass/main.css" | minify }}
+  <style>{{ .Content | safeCSS }}</style>
+  {{ end }}
 </head>
