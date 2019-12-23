@@ -5,7 +5,7 @@
   <meta name="description" content="{{ .Description }}" />
   <base href="{{ .Site.BaseURL }}" />
   {{ $bulma := resources.Get "sass/bulma.sass" | resources.ToCSS (dict "targetPath" "css/style.css" "outputStyle" "compressed") | minify | fingerprint }}
-  {{ $katexCss := resources.Get "sass/katex.css" | minify }}
+  {{ $katexCss := resources.Get "sass/katex.css" | minify | fingerprint }}
   {{ $katex := resources.Get "js/katex.js" }}
   {{ $autorender := resources.Get "js/auto-render.js" }}
   {{ $bundle := (slice $katex $autorender | resources.Concat "js/bundle.js") | minify | fingerprint }}
